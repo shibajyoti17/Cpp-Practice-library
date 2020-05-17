@@ -43,7 +43,8 @@ using namespace std;
     bool isMale = true ; // Stores a boolean value
 }
 */
-// Different operations on string
+
+// Various Operations on strings
 int main() {
     string phrase = "Cpp Academy";
     cout << "Length of string: " << phrase.length() << endl;
