@@ -45,11 +45,46 @@ using namespace std;
 */
 
 // Various Operations on strings
-int main() {
+/*int main() {
     string phrase = "Cpp Academy";
     cout << "Length of string: " << phrase.length() << endl;
     cout << "Finding of a substring: " << phrase.find("A",0) << endl;
     phrase[1] = 'P';
     cout << "The new string: " << phrase << endl;
     cout << "The new substring: " << phrase.substr(4,3) << endl;
+}
+*/
+//new program
+/*int main() {
+    int age;
+    cout << "enter your age";
+    cin >> age;
+
+    cout << "you are " << age << " years old";
+}
+*/
+// Basic Calculator
+/*int main() {
+    int num1, num2;
+    cout << "enter a number";
+    cin >> num1;
+
+    cout << "enter a number";
+    cin >> num2;
+
+    cout << num1 + num2;
+    printf("Printf works in C++") ;
+}
+*/
+// basic game
+int main () {
+    string game , playername;
+
+    cout << "enter a game";
+    getline(cin , game);
+    cout << "Enter a player name";
+    getline(cin , playername);
+
+    cout<<"I play "<< game<<endl;
+    cout << playername << " is my favourite"<<endl;
 }
